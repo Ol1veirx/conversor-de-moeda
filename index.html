@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConverCoin</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <script src="nave.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <main>
+        <section>
+                <div class="neves" aria-hidden="true">
+                    <div class="neve"></div>
+                </div>
+                <div class="form">
+                    <img src="src/icons/moedas.svg" alt="" id="logo">
+                    <h1>ConverCoin</h1>
+                    <select name="" id="brl">
+                        <option value="brl">Real Brasileiro (R$)</option>
+                    </select>
+                    <img src="src/icons/troca.svg" alt="" class="troca-moeda">
+                    <select name="" id="outhersCoins">
+                        <option value="dol">Dólar (US$)</option>
+                        <option value="eur">Euro (€)</option>
+                        <option value="lib">Libra (£)</option>
+                        <option value="iene">Iene (¥)</option>
+                    </select>
+                    <input type="number" placeholder="Digite o valor" id="valorEmBrl">
+                    <button id="btn-convert">Converter</button>
+
+                    <div class="img-brl">
+                        <img src="src/img/brasil.png" alt="">
+                        <span id="brl-value"></span>
+                        <img src="src/icons/seta.svg" alt="">
+                    </div>
+
+                    <div id="resultado">
+                        <img src="" alt="" id="bandeira">
+                        <span id="coin-convert"></span>
+                    </div>
+                </div>
+            
+        </section>
+    </main>
+</body>
+</html>
